@@ -1,0 +1,29 @@
+{
+    "name": "@izzle-org/sanctum-client",
+    "version": "0.0.1",
+    "description": "Simple Lib, based on Laravel Sanctum Authorization",
+    "main": "index.mjs",
+    "keywords": [
+        "Izzle",
+        "Laravel",
+        "Sanctum"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "git+https://git@github.com:izzle-org/sanctum-client-js.git"
+    },
+    "author": "Daniel Böhmer <daniel@izzle.org>",
+    "license": "MIT",
+    "scripts": {
+        "start": "webpack --watch",
+        "build": "webpack",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "dependencies": {
+        "axios": "^0.19.2"
+    },
+    "devDependencies": {
+        "webpack": "^4.42.1",
+        "webpack-cli": "^3.3.11"
+    }
+}
